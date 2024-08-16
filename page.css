@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: #ff4081;
+}
+
+header .icons a {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('hehe.png') no-repeat center center/cover;
+    color: #030303;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff4081;
+    color: #050505;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e91e63;
+}
+
+
+/* Featured Products Section Styles */
+.featured-products {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px;
+    width: 23%;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff4081;
+    font-weight: bold;
+}
+
+.product .btn {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product .btn:hover {
+    background-color: #e91e63;
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    padding: 60px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #ff4081;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #e91e63;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-content .social-media a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer-content .social-media a:hover {
+    color: #ff4081;
+}
+

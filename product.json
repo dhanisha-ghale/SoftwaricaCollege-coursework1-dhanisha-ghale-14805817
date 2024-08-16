@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "name": "Men's Shirt",
+            "description": "A stylish men's shirt.",
+            "price": 29.99,
+            "image": "clothes.jpg"
+        },
+        {
+            "name": "Women's Dress",
+            "description": "A beautiful women's dress.",
+            "price": 49.99,
+            "image": "images/womens_dress.jpg"
+        },
+        {
+            "name": "Men's Shoes",
+            "description": "Comfortable men's shoes.",
+            "price": 79.99,
+            "image": "images/mens_shoes.jpg"
+        },
+        {
+            "name": "Women's T-shirt",
+            "description": "A casual women's t-shirt.",
+            "price": 19.99,
+            "image": "images/womens_tshirt.jpg"
+        }
+    ]
+}
